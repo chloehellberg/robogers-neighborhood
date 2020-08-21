@@ -16,27 +16,23 @@ README.md
   * Input: "4"
   * Output: "0, Beep!, 2, 3, 4"
 
-* Spec 3: Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+* Spec 3: Numbers that contain a 2: all digits are replaced (all digits) with "Boop!" AND Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
   * Input: "4"
-  * Output: "0, 1, Boop!, 3, 4"
+  * Output: "0, Beep!, Boop!, 3, 4"
 
-* Spec 4: Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+* Spec 4: Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?" AND Numbers that contain a 2: all digits are replaced (all digits) with "Boop!" AND Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
   * Input: "4"
-  * Output: "0, 1, 2, Won't you be my neighbor?, 4"
+  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4"
 
-* Spec 5: The program return "Beep", "Boop" and "Won't you be my neighbor?" whenever it reads the number 1,2, or 3. Combine all rules together.
-  * Input: "4"
-  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4" 
-
-* Spec 6: The program returns "Boop!" when it sees a 2 even if it sees a 1 in the inputted number. (2 is more important than 1)
+* Spec 5: The program returns "Boop!" when it sees a 2 even if it sees a 1 in the inputted number. (2 is more important than 1)
   * Input: "12"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!"
 
-* Spec 7: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
+* Spec 6: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
   * Input: "13"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?" 
 
-* Spec 8: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
+* Spec 7: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
   * Input: "23"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!(14), Beep!(15), Beep!(16), Beep!(17), Beep!(18), Beep!(19), Boop!(20), Boop!(21), Boop!(22), Won't you be my neighbor?(23)"
 

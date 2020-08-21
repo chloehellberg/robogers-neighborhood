@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Mr. Roboger's Neighborhood</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Mr. Roboger's Neighborhood</h1>
+    <p>Welcome to the neighborhood! Input a number into my form and receive a fun message back from my Mr. Rogers Robot.</p>
+
+    <form id="neighborhood">
+      <label for="number">Enter a number:</label>
+      <input id="number" type="text">
+
+      <button type="submit" class="btn btn-success">Submit!</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <div id="answer">
+      <h4>Here is your message: <span id="output"></span></h4>
+    </div>
+  </div>
 </body>
 </html>

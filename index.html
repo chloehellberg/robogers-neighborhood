@@ -9,24 +9,29 @@
 </head>
 <body>
   <div class="container">
-    <h1>Mr. Roboger's Neighborhood</h1>
-    <p>Welcome to the neighborhood! Input a number into my form and receive a fun message back from my Mr. Rogers Robot.</p>
+    <div class="card" id="intro">
+      <h1>Mr. Roboger's Neighborhood</h1>
+      <p>Welcome to the neighborhood! Input a number into my form and receive a fun message back from my Mr. Rogers Robot.</p>
+    </div>
+    <div class="card" id="test">
+      <form id="neighborhood">
+        <label for="number">Enter a number:</label>
+        <input id="number" type="text">
 
-    <form id="neighborhood">
-      <label for="number">Enter a number:</label>
-      <input id="number" type="text">
-
-      <button type="submit" class="btn btn-success">Submit!</button>
-    </form>
+        <button type="submit" class="btn btn-success">Submit!</button>
+      </form>
+    </div>
   </div>
 
   <div class="container">
-    <div id="answer">
+    <div class="card" id="answer">
       <h4>Here is your message: <span id="output"></span></h4>
     </div>
   </div>
   <div class="container">
-    <img src="img/rogers.jpeg">
+    <div class="card" id="image">
+      <img src="img/rogers.jpeg">
+    </div>
   </div>
 </body>
 </html>

@@ -36,7 +36,7 @@ README.md
   * Input: "13"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?" 
 
-* Spec : The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
+* Spec 8: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
   * Input: "23"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!(14), Beep!(15), Beep!(16), Beep!(17), Beep!(18), Beep!(19), Boop!(20), Boop!(21), Boop!(22), Won't you be my neighbor?(23)"
 

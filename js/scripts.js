@@ -19,6 +19,10 @@ function numberList(number) {
   return roboArray;
 };
 
+function reverseMessage(result) {
+  
+}
+
 
 // User Interface Logic
 

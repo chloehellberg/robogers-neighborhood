@@ -1,8 +1,13 @@
-/* #answer {
-  display: none;
-} */
-
 img {
-  width: 50%;
+  width: 80%;
+  border-radius: 50%
+}
 
+
+body {
+  background-color: lightcyan;
+}
+
+.container {
+  margin: 40px;
 }

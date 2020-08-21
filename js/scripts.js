@@ -66,13 +66,8 @@ const result = numberList(number);
 console.log(result);
 
 
-
-* Spec 5: The program returns "Boop!" when it sees a 2 even if it sees a 1 in the inputted number. (2 is more important than 1)
-  * Input: "12"
-  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!"
-
 // SPEC #5
-let number = 13;
+let number = 23;
 function numberList(number) {
   let roboArray=[];
   
@@ -81,9 +76,9 @@ function numberList(number) {
 
     if (numberString.includes("3")) {
       roboArray.push("Won't you be my neighbor?");
-    } else if (i === 2) {
+    } else if (numberString.includes("2")) {
       roboArray.push("Boop!");
-    }  else if (i === 1) {
+    }  else if (numberString.includes("1")) {
       roboArray.push("Beep!");
     } else {
       roboArray.push(i);
@@ -91,7 +86,8 @@ function numberList(number) {
   };
   return roboArray;
 };
-
+const result = numberList(number);
+console.log(result);
 
 
 

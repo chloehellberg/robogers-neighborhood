@@ -1,3 +1,4 @@
+// SPEC #1
 // let number = 4;                           
 
 // function numberList(number) {              
@@ -10,8 +11,7 @@
 // const result = numberList(number);
 // console.log(result);
 
-
-
+SPEC #2
 let number = 4;
 
 function numberList(number) {
@@ -68,31 +68,3 @@ console.log(result);
     // const number = parseInt($("input#number").val());
     // let roboArray = [];
 
-
-
-
-
-
-
-    // });
-
-  
-    // let roboArray = [];
-
-    // for (let i=0; i < number.length; i +=1) {
-    //   number.push(i);
-    //   console.log(number);
-
-    // }
-    // console.log(roboArray);
-//   });
-// });
-
-
-// const number = [4];
-// let roboArray = [];
-
-// for (let i=0; i < number.length; i +=1) {
-//   roboArray.push(i);
-//   console.log(number);
-// };

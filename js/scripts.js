@@ -72,15 +72,18 @@ console.log(result);
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!"
 
 // SPEC #5
-let number = 12;
+let number = 13;
 function numberList(number) {
   let roboArray=[];
+  
   for(i=0; i <= number; i +=1) {
-    if (i === 3) {
+    let numberString = i.toString();
+
+    if (numberString.includes("3")) {
       roboArray.push("Won't you be my neighbor?");
-    } else if (roboArray.includes(2)) {
+    } else if (i === 2) {
       roboArray.push("Boop!");
-    } else if (i === 1) {
+    }  else if (i === 1) {
       roboArray.push("Beep!");
     } else {
       roboArray.push(i);
@@ -88,10 +91,21 @@ function numberList(number) {
   };
   return roboArray;
 };
+
+
+
+
+
+
+
+
+
 const result = numberList(number);
 console.log(result);
 
-// || i === 2
+
+
+
 
 
 

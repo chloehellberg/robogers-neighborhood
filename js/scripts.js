@@ -88,22 +88,3 @@ function numberList(number) {
 };
 const result = numberList(number);
 console.log(result);
-
-
-
-
-
-
-
-
-const result = numberList(number);
-console.log(result);
-
-
-
-
-
-
-
-
-

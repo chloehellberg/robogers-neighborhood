@@ -24,18 +24,9 @@ README.md
   * Input: "4"
   * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4"
 
-* Spec 5: The program returns "Boop!" when it sees a 2 even if it sees a 1 in the inputted number. (2 is more important than 1)
-  * Input: "12"
-  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!"
-
-* Spec 6: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
-  * Input: "13"
-  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?" 
-
-* Spec 7: The program returns "Won't you be my neighbor?" when it sees a 3 even if it reads a 1 or 2 from the input. (3 is most important)
+* Spec 5: The program returns "Won't you be my neighbor?" if it sees a 3, even in 32 or 13. The program returns "Boop!" when it sees a 2, even in 12. The program returns a "Beep!" when it sees a 1, even in 10. (3 is most important, 2, is next most important and 1 is least important)
   * Input: "23"
-  * Output: "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!(14), Beep!(15), Beep!(16), Beep!(17), Beep!(18), Beep!(19), Boop!(20), Boop!(21), Boop!(22), Won't you be my neighbor?(23)"
-
+  * Output: "0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"
 
 
 ## Setup/Installation Requirements

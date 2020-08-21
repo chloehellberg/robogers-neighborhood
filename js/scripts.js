@@ -1,12 +1,64 @@
-$(document).ready(function() {
-  $("#neighborhood").submit(function(event) {
-    event.preventDefault();
+let number = 4;                           
 
-    const number = [parseInt($("input#number").val())];
-    console.log(number);
+function numberList(number) {              
+  let roboArray = [];
+  for (let i=0; i <= number; i+=1) {
+    roboArray.push(i);             
+  };
+  return roboArray;
+}
+const result = numberList(number);
+console.log(result);
 
-    });
-  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function() {
+//   $("#neighborhood").submit(function(event) {
+//     event.preventDefault();
+
+    // const number = parseInt($("input#number").val());
+    // let roboArray = [];
+
+
+
+
+
+
+
+    // });
+
   
     // let roboArray = [];
 
